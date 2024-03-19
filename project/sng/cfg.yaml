@@ -1,0 +1,23 @@
+# 服务名，不要带`-service`后缀
+service_name: antiaddiction
+# 路径必须以`/`结尾
+service_dir: ./goctl/services/
+service_test_dir: ./goctl/test/
+
+gitlab_token: 
+
+yapi:
+ # 项目id
+ id: 113
+ # 项目token
+ token: 690359ac2b7821cf71de7c8232ef7a80e385e90c14f45b22aacbbe11b11b3d99
+
+jenkins:
+ user: 
+ pass: 
+
+sql:
+ -
+  node: common
+  db: yygplatform
+  table: [userbase,user_real_name_auth]
